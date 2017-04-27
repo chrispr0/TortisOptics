@@ -1,19 +1,141 @@
 html {
   font-size: 18px;
-  line-height: 1.
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4;
 }
 
 .container {
   width: 960px;
-  margin: 0 auto;
+  margin: auto;
 }
 
-/*
+.flex {
+  display: flex;
+}
+
+/* HEADER Styles*/
+
 header {
   height: 30rem;
-} */
+  background-image: url('../images/glasses-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 1rem;
+}
 
-div {
-  border: 1px solid black;
-  margin: 5px;
+nav {
+  padding: 1rem 0;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
+
+ul {
+}
+
+ul li {
+   display: inline;
+   padding-right: 2rem;
+ }
+
+header .flex {
+  justify-content: flex-end;
+}
+
+ .main-banner {
+   background-color: white;
+   padding: 1.5rem 5rem;
+   display: inline-block;
+   margin-top: 10rem;
+   margin-right: -2rem;
+ }
+
+.main-banner h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ /* Services Styles*/
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+}
+
+.service img {
+ width: 5rem;
+ margin-bottom: 1rem;
+}
+
+.service img.paper-icon {
+  width: 3.5rem;
+}
+
+.supporting.container
+ {
+   margin-bottom: 5rem;
+ }
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+}
+
+.title {
+  background-color: cadetblue;
+  padding: .5rem 1.25rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+.title span {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+ /* Footer Styles*/
+footer {
+  background-color: azure;
+  height: 9.5rem;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
+
+footer div {
 }
